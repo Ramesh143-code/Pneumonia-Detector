@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # setup
 import streamlit as st
 import pandas as pd
@@ -59,7 +58,7 @@ with st.container():
     with huggingface_col:
         st.link_button('**STREAMLIT PROFILE**', icon=':material/deployed_code:', url='https://share.streamlit.io/user/ramesh143-code', use_container_width=True, help='MY DEPLOYED STREAMLIT PROJECTS 🤗')
 
-=======
+
 # setup
 import streamlit as st
 import pandas as pd
@@ -112,7 +111,7 @@ with st.container():
     github_col, linkedin_col, huggingface_col = st.columns(3, border=False)
 
     with github_col:
-        st.link_button('**GITHUB**', icon=':material/code:', url='https://github.com/Ramesh143-code/todo-luxe', use_container_width=True, help='View the Project Source Code on GitHub ▶️')
+        st.link_button('**GITHUB**', icon=':material/code:', url='https://github.com/Ramesh143-code/Pneumonia-Detector', use_container_width=True, help='View the Project Source Code on GitHub ▶️')
 
     with linkedin_col:
         st.link_button('**LINKEDIN**', icon=':material/group_add:', url='https://www.linkedin.com/in/p-ramesh-477482304', use_container_width=True, help='Connect With Me 😊')
@@ -120,5 +119,5 @@ with st.container():
     with huggingface_col:
         st.link_button('**STREAMLIT PROFILE**', icon=':material/deployed_code:', url='https://share.streamlit.io/user/ramesh143-code', use_container_width=True, help='MY DEPLOYED STREAMLIT PROJECTS 🤗')
 
->>>>>>> 3355a97f5ef8bcba37a34a3c6b41f77bb353b1b0
+
 # streamlit run app.py
