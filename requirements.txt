@@ -3,4 +3,7 @@ numpy
 streamlit
 tensorflow
 keras
+torch
+torchvision
+
 
