@@ -46,13 +46,25 @@ with st.container():
     github_col, linkedin_col, huggingface_col = st.columns(3, border=False)
 
     with github_col:
-        st.link_button('**GITHUB**', icon=':material/code:', url='https://github.com/Ramesh143-code/Pneumonia-Detector', use_container_width=True, help='View the Project Source Code on GitHub ▶️', key='github_btn')
+        st.markdown(
+            '[**:material/code: GITHUB**](https://github.com/Ramesh143-code/todo-luxe)  \n'
+            '<span style="color:gray;font-size:12px;">View the Project Source Code on GitHub ▶️</span>',
+            unsafe_allow_html=True
+        )
 
     with linkedin_col:
-        st.link_button('**LINKEDIN**', icon=':material/group_add:', url='https://www.linkedin.com/in/p-ramesh-477482304', use_container_width=True, help='Connect With Me 😊', key='linkedin_btn')
+        st.markdown(
+            '[**:material/group_add: LINKEDIN**](https://www.linkedin.com/in/p-ramesh-477482304)  \n'
+            '<span style="color:gray;font-size:12px;">Connect With Me 😊</span>',
+            unsafe_allow_html=True
+        )
 
     with huggingface_col:
-        st.link_button('**STREAMLIT PROFILE**', icon=':material/deployed_code:', url='https://share.streamlit.io/user/ramesh143-code', use_container_width=True, help='MY DEPLOYED STREAMLIT PROJECTS 🤗', key='streamlit_btn')
+        st.markdown(
+            '[**:material/deployed_code: STREAMLIT PROFILE**](https://share.streamlit.io/user/ramesh143-code)  \n'
+            '<span style="color:gray;font-size:12px;">MY DEPLOYED STREAMLIT PROJECTS 🤗</span>',
+            unsafe_allow_html=True
+        )
 
 
 # streamlit run app.py
