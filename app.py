@@ -20,7 +20,7 @@ with st.container():
     image_col, heading_col = st.columns([.5, 1.5], vertical_alignment='center')
 
     with image_col:
-        st.image('Images/logo.jpg', width=150)
+        st.image('collegelogo.jpg', width=150)
 
     with heading_col:
         st.write('# :rainbow[Pneumonia Detector]')
@@ -56,5 +56,6 @@ with st.container():
 
     with huggingface_col:
         st.link_button('**STREAMLIT PROFILE**', icon=':material/deployed_code:', url='https://share.streamlit.io/user/ramesh143-code', use_container_width=True, help='MY DEPLOYED STREAMLIT PROJECTS 🤗')
+
 
 # streamlit run app.py 
